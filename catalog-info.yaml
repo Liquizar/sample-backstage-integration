@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sample-backstage-integration
+  description: "This is a sample repository for Backstage integration"
+  tags:
+    - service
+    - frontend
+spec:
+  type: service
+  lifecycle: production
+  owner: liquizar
+  system: sample-system
